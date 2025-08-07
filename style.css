@@ -29,10 +29,15 @@ img {
 footer {
     background: #aa80f3;
     color:#fff;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
 }
 
 #Clown {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#Bibel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
 }
