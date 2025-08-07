@@ -3,10 +3,14 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    background-color: #E0D1FA;
+}
+
 header {
     background: #aa80f3;
     color:#fff;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -20,4 +24,15 @@ img {
     max-width: 675px;
     width: 100%;
     margin: 0 auto;
+}
+
+footer {
+    background: #aa80f3;
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#Clown {
+    font-family: Arial, Helvetica, sans-serif;
 }
