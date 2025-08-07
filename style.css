@@ -1,16 +1,17 @@
 
-h1 {
+h1, h2, p {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(1rem, 2.5vw, 4rem)
 }
 
 html {
     background-color: #E0D1FA;
 }
 
-header {
+header, footer {
     background: #aa80f3;
     color:#fff;
-    padding: 5px;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -21,17 +22,11 @@ img {
 }
 
 .wrapper {
-    max-width: 675px;
-    width: 100%;
+    max-width: 300ch;
+    width: 90%;
     margin: 0 auto;
 }
 
-footer {
-    background: #aa80f3;
-    color:#fff;
-    padding: 5px;
-    text-align: center;
-}
 
 #Clown {
     font-family: Arial, Helvetica, sans-serif;
@@ -40,4 +35,14 @@ footer {
 #Bibel {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.7em;
+}
+
+@media screen and (min-width: 2560px) {
+  .wrapper {
+    max-width: 130ch;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
 }
